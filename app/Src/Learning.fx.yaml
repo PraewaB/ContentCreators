@@ -1,12 +1,5 @@
 Learning As screen:
 
-    RectQuickActionBar1_4 As rectangle:
-        BorderColor: =RGBA(99, 139, 44, 1)
-        Fill: =RGBA(99, 139, 44, 1)
-        Height: =88
-        Width: =Parent.Width
-        ZIndex: =1
-
     "Gallery3_1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         DelayItemLoading: =true
         Height: =508
@@ -82,6 +75,13 @@ Learning As screen:
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
+
+    RectQuickActionBar1_4 As rectangle:
+        BorderColor: =RGBA(99, 139, 44, 1)
+        Fill: =RGBA(99, 139, 44, 1)
+        Height: =88
+        Width: =Parent.Width
+        ZIndex: =1
 
     LblAppName1_4 As label:
         Align: =Align.Center

@@ -1,4 +1,5 @@
 Profile As screen:
+    BackgroundImage: =
 
     RectQuickActionBar1_2 As rectangle:
         BorderColor: =RGBA(99, 139, 44, 1)
@@ -48,9 +49,29 @@ Profile As screen:
         Align: =Align.Center
         Height: =70
         Size: =18
-        Text: =Office365Users.UserProfile(MyUserId).JobTitle
+        Text: =(Office365Users.MyProfile().JobTitle)
         Width: =560
         X: =40
-        Y: =580
+        Y: =566
         ZIndex: =6
+
+    Label1_4 As label:
+        Align: =Align.Center
+        Height: =70
+        Size: =18
+        Text: =(Office365Users.MyProfile().OfficeLocation)
+        Width: =560
+        X: =40
+        Y: =676
+        ZIndex: =7
+
+    Label1_5 As label:
+        Align: =Align.Center
+        Height: =70
+        Size: =18
+        Text: =(Office365Users.MyProfile().Department)
+        Width: =560
+        X: =40
+        Y: =622
+        ZIndex: =8
 

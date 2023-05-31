@@ -33,8 +33,7 @@
     },
     "dataSources": [
       "Employee onboarding",
-      "Employee Profile",
-      "OBT_SAPLearningHub"
+      "Employee Profile"
     ],
     "dependencies": {},
     "dependents": [],
