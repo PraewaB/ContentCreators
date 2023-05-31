@@ -1,0 +1,53 @@
+{
+  "4207c748-89c9-4f3d-9cef-d5ef622c59f1": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1627/1.0.1627.3238/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://apcdeloitte.sharepoint.com/sites/Content42": {
+        "dataSources": {
+          "Employee onboarding": {
+            "tableName": "e4b29268-9f82-49f8-b7ba-0a415c35d29e"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Employee onboarding",
+      "Employee Profile"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "4207c748-89c9-4f3d-9cef-d5ef622c59f1"
+  },
+  "9a8214d7-39bf-4ea6-b884-73aece32e2f0": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1627/1.0.1627.3238/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://apcdeloitte.sharepoint.com/sites/Content42": {
+        "dataSources": {
+          "Employee Profile": {
+            "tableName": "845f6c95-db5b-4192-b632-318032bdacbb"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Employee Profile"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "9a8214d7-39bf-4ea6-b884-73aece32e2f0"
+  }
+}

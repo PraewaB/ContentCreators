@@ -1,0 +1,83 @@
+Homepage As screen:
+    BackgroundImage: ='pexels-rahul-pandit-1212487'
+    ImagePosition: =ImagePosition.Fill
+
+    Button1 As button:
+        Fill: =RGBA(99, 139, 44, 1)
+        Font: =Font.Georgia
+        Height: =70
+        HoverFill: =ColorFade(Self.Fill, -15%)
+        OnSelect: =Navigate('TO DO')
+        Size: =24
+        Text: ="TO DO"
+        Width: =280
+        X: =195
+        Y: =711
+        ZIndex: =1
+
+    Button1_1 As button:
+        Fill: =RGBA(99, 139, 44, 1)
+        Font: =Font.Georgia
+        Height: =70
+        HoverFill: =ColorFade(Self.Fill, -15%)
+        Size: =24
+        Text: ="How To"
+        Width: =280
+        X: =195
+        Y: =809
+        ZIndex: =2
+
+    Button1_2 As button:
+        Fill: =RGBA(99, 139, 44, 1)
+        Font: =Font.Georgia
+        Height: =70
+        HoverFill: =ColorFade(Self.Fill, -15%)
+        OnSelect: =Navigate(Network)
+        Size: =24
+        Text: ="Network Hub"
+        Width: =280
+        X: =195
+        Y: =914
+        ZIndex: =3
+
+    Button1_3 As button:
+        Fill: =RGBA(99, 139, 44, 1)
+        Font: =Font.Georgia
+        Height: =70
+        HoverFill: =ColorFade(Self.Fill, -15%)
+        Size: =24
+        Text: ="Learning Hub"
+        Width: =280
+        X: =195
+        Y: =1020
+        ZIndex: =4
+
+    Label2 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =203
+        Size: =50
+        Text: |-
+            ="WELCOME 
+            NEW JOINERS
+            "
+        Width: =560
+        X: =55
+        Y: =33
+        ZIndex: =5
+
+    Button1_4 As button:
+        Fill: =RGBA(99, 139, 44, 1)
+        Font: =Font.Georgia
+        Height: =70
+        HoverFill: =ColorFade(Self.Fill, -15%)
+        OnSelect: =Navigate(Profile)
+        Size: =24
+        Text: ="My Profile"
+        Width: =526
+        X: =75
+        Y: =259
+        ZIndex: =6
+

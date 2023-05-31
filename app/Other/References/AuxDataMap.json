@@ -1,0 +1,3 @@
+{
+  "AppFromDataMetaDataIdsToEntityNameMappings": "{\"%DataSourceName.AFD%\":\"Employee onboarding\",\"%DataSourceValue.AFD%\":\"[@'Employee onboarding']\",\"%SortFieldName.AFD%\":\"\\\"Title\\\"\",\"%FilterFieldName.AFD%\":\"Title\",\"%PrimaryNameField.AFD%\":\"\\\"Title\\\"\",\"%PrimaryNameFieldDisplayName.AFD%\":\"'Title'\",\"%SearchFieldName.AFD%\":\"\\\"Title\\\"\",\"%StartsWithFieldName.AFD%\":\"Title\",\"%DeleteConfirmFieldName.AFD%\":\"Title\",\"%SortDescending.AFD%\":\"SortDescending1\",\"%BrowseScreen.AFD%\":\"'TO DO'\",\"%DetailScreen.AFD%\":\"'TO DO Detail'\",\"%EditScreen.AFD%\":\"'TO DO Edit'\",\"%BrowseContainer.ID%\":\"BrowseGallery1\",\"%DetailEditContainer.ID%\":\"EditForm1\"}"
+}
