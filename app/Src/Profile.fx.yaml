@@ -26,6 +26,7 @@ Profile As screen:
         ZIndex: =3
 
     Image1 As image:
+        DisplayMode: =DisplayMode.View
         Height: =320
         Width: =320
         X: =160
