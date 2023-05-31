@@ -28,6 +28,7 @@ Profile As screen:
     Image1 As image:
         DisplayMode: =DisplayMode.View
         Height: =320
+        Image: =LookUp(UserPhotoCache,UserId = MyUserId).Photo
         Width: =320
         X: =160
         Y: =123
@@ -37,7 +38,7 @@ Profile As screen:
         Align: =Align.Center
         Height: =70
         Size: =21
-        Text: ="PRAEWA B."
+        Text: =User().FullName
         Width: =560
         X: =40
         Y: =510
