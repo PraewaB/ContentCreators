@@ -20,6 +20,7 @@ Homepage As screen:
         Font: =Font.Georgia
         Height: =70
         HoverFill: =ColorFade(Self.Fill, -15%)
+        OnSelect: =Navigate('How To')
         Size: =24
         Text: ="How To"
         Width: =280

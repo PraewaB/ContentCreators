@@ -1,4 +1,18 @@
 {
+  "1e95a794-d246-460e-bf28-8b7c4a347314": {
+    "connectionRef": {
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1626/1.0.1626.3238/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365"
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "1e95a794-d246-460e-bf28-8b7c4a347314"
+  },
   "4207c748-89c9-4f3d-9cef-d5ef622c59f1": {
     "connectionRef": {
       "apiTier": "Standard",
@@ -63,5 +77,49 @@
     "dependencies": {},
     "dependents": [],
     "id": "9a8214d7-39bf-4ea6-b884-73aece32e2f0"
+  },
+  "eba89a77-4e49-41b3-a618-1dc5aee669bc": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1627/1.0.1627.3238/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://apcdeloitte.sharepoint.com/sites/Content42": {
+        "dataSources": {
+          "OBT_SAPLearningHub": {
+            "tableName": "e81ab97e-2abf-4b0c-b7ef-20c152c27d4e"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "OBT_SAPLearningHub"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "eba89a77-4e49-41b3-a618-1dc5aee669bc"
+  },
+  "f2f0ecea-4eb9-4021-ba04-c2bc2c7af6d8": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1627/1.0.1627.3238/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://apcdeloitte.sharepoint.com/sites/Content42": {
+        "dataSources": {
+          "OBT_HowToDeloitte": {
+            "tableName": "7aa65fb8-a242-4820-b7c4-4c4b19967541"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "OBT_HowToDeloitte"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "f2f0ecea-4eb9-4021-ba04-c2bc2c7af6d8"
   }
 }
