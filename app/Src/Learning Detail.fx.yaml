@@ -108,10 +108,10 @@
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
-                Items: =Choices([@OBT_SAPLearningHub].Category0)
+                Items: =Choices([@OBT_SAPLearningHub].Category)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
-                SearchItems: =Choices(OBT_SAPLearningHub.Category0,DataCardValue26.SearchText)
+                SearchItems: =Choices(OBT_SAPLearningHub.Category,DataCardValue26.SearchText)
                 Size: =21
                 Width: =Parent.Width - 60
                 X: =30
@@ -301,7 +301,7 @@
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.ChevronLeft
-        OnSelect: =Navigate(Learning)
+        OnSelect: =Navigate('SF Learning')
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24

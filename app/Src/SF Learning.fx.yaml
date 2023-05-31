@@ -1,8 +1,15 @@
-Learning As screen:
+"'SF Learning' As screen":
+
+    RectQuickActionBar1_4 As rectangle:
+        BorderColor: =RGBA(99, 139, 44, 1)
+        Fill: =RGBA(99, 139, 44, 1)
+        Height: =88
+        Width: =Parent.Width
+        ZIndex: =1
 
     "Gallery3_1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         DelayItemLoading: =true
-        Height: =508
+        Height: =339
         Items: =OBT_SAPLearningHub
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -76,19 +83,12 @@ Learning As screen:
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
 
-    RectQuickActionBar1_4 As rectangle:
-        BorderColor: =RGBA(99, 139, 44, 1)
-        Fill: =RGBA(99, 139, 44, 1)
-        Height: =88
-        Width: =Parent.Width
-        ZIndex: =1
-
     LblAppName1_4 As label:
         Align: =Align.Center
         Fill: =RGBA(58, 58, 58, 0)
         Height: =88
         Size: =27
-        Text: ="Learning Hub"
+        Text: ="SF Learning Hub"
         Width: =640
         Wrap: =false
         ZIndex: =2
@@ -97,7 +97,7 @@ Learning As screen:
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.ChevronLeft
-        OnSelect: =Navigate(Learning)
+        OnSelect: =Navigate('Learning Hub')
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24
@@ -106,4 +106,39 @@ Learning As screen:
         Tooltip: ="Back to list"
         Width: =88
         ZIndex: =3
+
+    TextSearchBox1_2 As text:
+        Default: =""
+        DelayOutput: =true
+        Height: =68
+        HintText: ="Search items"
+        PaddingLeft: =70
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =7
+        RadiusTopLeft: =0
+        RadiusTopRight: =7
+        Size: =21
+        Width: =Parent.Width
+        Y: =RectQuickActionBar1.Height
+        ZIndex: =4
+
+    SearchIcon1_2 As icon.Search:
+        Color: =RGBA(191, 190, 190, 1)
+        Height: =Self.Width
+        Icon: =Icon.Search
+        PaddingBottom: =14
+        PaddingLeft: =14
+        PaddingRight: =14
+        PaddingTop: =14
+        Tooltip: ="Search"
+        Width: =TextSearchBox1.Height
+        X: =TextSearchBox1.X
+        Y: =TextSearchBox1.Y
+        ZIndex: =5
+
+    Rectangle11_2 As rectangle:
+        Height: =2
+        Width: =Parent.Width
+        Y: =TextSearchBox1.Y + TextSearchBox1.Height
+        ZIndex: =6
 

@@ -28,7 +28,8 @@
     Button3 As button:
         Fill: =RGBA(127, 178, 57, 1)
         Height: =111
-        OnSelect: =Navigate(Learning)
+        HoverFill: =ColorFade(Self.Fill, -15%)
+        OnSelect: =Navigate('SF Learning')
         Size: =24
         Text: ="SF Learning Hub"
         Width: =280
@@ -39,6 +40,8 @@
     Button3_1 As button:
         Fill: =RGBA(127, 178, 57, 1)
         Height: =135
+        HoverFill: =ColorFade(Self.Fill, -15%)
+        OnSelect: =Navigate('Reference Doc')
         Size: =24
         Text: ="Reference from Project"
         Width: =280
@@ -85,8 +88,8 @@
         Height: =228
         Image: =goal
         Width: =188
-        X: =440
-        Y: =889
+        X: =452
+        Y: =891
         ZIndex: =12
 
     Image4_4 As image:

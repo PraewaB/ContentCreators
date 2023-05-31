@@ -33,7 +33,8 @@
     },
     "dataSources": [
       "Employee onboarding",
-      "Employee Profile"
+      "Employee Profile",
+      "OBT_SAPLearningHub"
     ],
     "dependencies": {},
     "dependents": [],
@@ -77,6 +78,28 @@
     "dependencies": {},
     "dependents": [],
     "id": "9a8214d7-39bf-4ea6-b884-73aece32e2f0"
+  },
+  "c2c93b84-fd10-4620-97c6-a7dc91d47bd4": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1627/1.0.1627.3238/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://apcdeloitte.sharepoint.com/sites/Content42": {
+        "dataSources": {
+          "Reference doc": {
+            "tableName": "bf3d2fd5-a8a0-4f96-8cb9-b399cc1b89b2"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Reference doc"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "c2c93b84-fd10-4620-97c6-a7dc91d47bd4"
   },
   "eba89a77-4e49-41b3-a618-1dc5aee669bc": {
     "connectionRef": {

@@ -96,7 +96,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 2,
+    "BindingErrorCount": 0,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -139,7 +139,9 @@
     "How To",
     "How To Detail",
     "Learning Hub",
-    "Learning",
-    "Learning Detail"
+    "SF Learning",
+    "Learning Detail",
+    "Reference Doc",
+    "Reference Detail"
   ]
 }
