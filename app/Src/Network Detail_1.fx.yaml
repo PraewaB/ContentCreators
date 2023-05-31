@@ -21,45 +21,13 @@
         Width: =88
         ZIndex: =2
 
-    IconEdit1_1 As icon.Edit:
-        AccessibleLabel: =Self.Tooltip
-        DisplayMode: =If(DataSourceInfo([@'Employee onboarding'], DataSourceInfo.EditPermission), DisplayMode.Edit, DisplayMode.Disabled)
-        Height: =88
-        Icon: =Icon.Edit
-        OnSelect: =EditForm(EditForm1);Navigate('TO DO Edit', ScreenTransition.None)
-        PaddingBottom: =24
-        PaddingLeft: =24
-        PaddingRight: =24
-        PaddingTop: =24
-        TabIndex: =0
-        Tooltip: ="Edit this item"
-        Width: =88
-        X: =Parent.Width - Self.Width
-        ZIndex: =3
-
-    IconDelete1_1 As icon.Trash:
-        AccessibleLabel: =Self.Tooltip
-        DisplayMode: =If(!IsBlank(BrowseGallery1.Selected) && DataSourceInfo([@'Employee onboarding'], DataSourceInfo.DeletePermission), DisplayMode.Edit, DisplayMode.Disabled)
-        Height: =88
-        Icon: =Icon.Trash
-        OnSelect: =Remove([@'Employee onboarding'], BrowseGallery1.Selected); If (IsEmpty(Errors([@'Employee onboarding'], BrowseGallery1.Selected)), Back())
-        PaddingBottom: =24
-        PaddingLeft: =24
-        PaddingRight: =24
-        PaddingTop: =24
-        TabIndex: =0
-        Tooltip: ="Delete this item"
-        Width: =88
-        X: =Parent.Width - IconEdit1_1.Width - Self.Width
-        ZIndex: =4
-
     LblAppName2_1 As label:
+        Align: =Align.Center
         Height: =88
         Size: =27
         Text: ="Employee Detail"
-        Width: =Parent.Width - Self.X - IconDelete1_1.Width - IconEdit1_1.Width
+        Width: =640
         Wrap: =false
-        X: =80
         ZIndex: =5
 
     DetailForm1_1 As formViewer:
