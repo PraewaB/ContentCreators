@@ -96,7 +96,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 5,
+    "BindingErrorCount": 2,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -138,6 +138,8 @@
     "Network Detail_1",
     "How To",
     "How To Detail",
-    "Learning"
+    "Learning Hub",
+    "Learning",
+    "Learning Detail"
   ]
 }

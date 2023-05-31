@@ -7,42 +7,15 @@
         Width: =Parent.Width
         ZIndex: =1
 
-    LblAppName1_3 As label:
-        Align: =Align.Center
-        Fill: =RGBA(58, 58, 58, 0)
-        Height: =88
-        Size: =27
-        Text: ="How To"
-        Width: =640
-        Wrap: =false
-        ZIndex: =2
-
-    Icon1_3 As icon.Home:
-        Color: =RGBA(255, 255, 255, 1)
-        Icon: =Icon.Home
-        OnSelect: =Navigate(Homepage)
-        X: =16
-        Y: =12
-        ZIndex: =3
-
-    "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+    "Gallery3 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         DelayItemLoading: =true
         Items: =OBT_HowToDeloitte
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
-        TemplateSize: =Min(160, Self.Height - 60)
+        TemplateSize: =Min(168, Self.Height - 60)
         Y: =153
-        ZIndex: =4
-
-        Image3 As image:
-            Height: =128
-            Image: =ThisItem.'Relevant link'
-            OnSelect: =Select(Parent)
-            Width: =128
-            X: =16
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =1
+        ZIndex: =1
 
         Title2 As label:
             Height: =Self.Size * 1.8
@@ -53,10 +26,10 @@
             PaddingTop: =0
             Text: =ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - Image3.Width - 104
-            X: =Image3.X + Image3.Width + 24
-            Y: =44
-            ZIndex: =2
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =16
+            ZIndex: =1
 
         Subtitle1 As label:
             Height: =Self.Size * 1.8
@@ -67,16 +40,16 @@
             PaddingTop: =0
             Text: =ThisItem.Description
             VerticalAlign: =VerticalAlign.Top
-            Width: =Title2.Width
-            X: =Title2.X
-            Y: =Title2.Y + Title2.Height + 4
-            ZIndex: =3
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =Title2.Y + Title2.Height + 2
+            ZIndex: =2
 
         NextArrow2 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             Height: =60
             Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
+            OnSelect: =Navigate('How To Detail')
             PaddingBottom: =10
             PaddingLeft: =10
             PaddingRight: =10
@@ -94,4 +67,22 @@
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
+
+    LblAppName1_3 As label:
+        Align: =Align.Center
+        Fill: =RGBA(58, 58, 58, 0)
+        Height: =88
+        Size: =27
+        Text: ="How To"
+        Width: =640
+        Wrap: =false
+        ZIndex: =2
+
+    Icon1_3 As icon.Home:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Home
+        OnSelect: =Navigate(Homepage)
+        X: =16
+        Y: =12
+        ZIndex: =3
 
