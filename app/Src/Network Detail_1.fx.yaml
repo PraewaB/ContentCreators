@@ -227,7 +227,7 @@
         Characteristic_DataCard1 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Characteristic"
-            Default: =ThisItem.Characteristic
+            Default: =ThisItem.'Business Chemistry'
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@'Employee Profile'],DataSourceInfo.DisplayName,"Characteristic")
             Fill: =RGBA(0, 0, 0, 0)
