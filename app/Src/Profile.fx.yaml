@@ -28,7 +28,7 @@ Profile As screen:
     Image1 As image:
         DisplayMode: =DisplayMode.View
         Height: =320
-        Image: =LookUp(UserPhotoCache,UserId = MyUserId).Photo
+        Image: =Office365Users.UserPhoto(Office365Users.MyProfile().Id)
         Width: =320
         X: =160
         Y: =123
