@@ -44,3 +44,13 @@ Profile As screen:
         Y: =510
         ZIndex: =5
 
+    Label1_1 As label:
+        Align: =Align.Center
+        Height: =70
+        Size: =18
+        Text: =Office365Users.UserProfile(MyUserId).JobTitle
+        Width: =560
+        X: =40
+        Y: =580
+        ZIndex: =6
+
