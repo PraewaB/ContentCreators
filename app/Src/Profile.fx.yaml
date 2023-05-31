@@ -55,3 +55,13 @@ Profile As screen:
         Y: =580
         ZIndex: =6
 
+    Label1_4 As label:
+        Align: =Align.Center
+        Height: =70
+        Size: =18
+        Text: =(Office365Users.MyProfile().OfficeLocation)
+        Width: =560
+        X: =40
+        Y: =690
+        ZIndex: =7
+
