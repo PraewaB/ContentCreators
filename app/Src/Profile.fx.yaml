@@ -49,7 +49,7 @@ Profile As screen:
         Align: =Align.Center
         Height: =70
         Size: =18
-        Text: =Office365Users.JobTitle(Office365Users.MyProfile().Id).value
+        Text: =(Office365Users.MyProfile().JobTitle)
         Width: =560
         X: =40
         Y: =580
