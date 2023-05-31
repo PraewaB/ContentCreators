@@ -26,7 +26,9 @@ Profile As screen:
         ZIndex: =3
 
     Image1 As image:
+        DisplayMode: =DisplayMode.View
         Height: =320
+        Image: =LookUp(UserPhotoCache,UserId = MyUserId).Photo
         Width: =320
         X: =160
         Y: =123
@@ -36,9 +38,19 @@ Profile As screen:
         Align: =Align.Center
         Height: =70
         Size: =21
-        Text: ="PRAEWA B."
+        Text: =User().FullName
         Width: =560
         X: =40
         Y: =510
         ZIndex: =5
+
+    Label1_1 As label:
+        Align: =Align.Center
+        Height: =70
+        Size: =18
+        Text: =Office365Users.UserProfile(MyUserId).JobTitle
+        Width: =560
+        X: =40
+        Y: =580
+        ZIndex: =6
 
