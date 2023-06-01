@@ -282,7 +282,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconBackarrow1_6",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -492,7 +492,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "LblAppName1_6",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1003,7 +1003,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "RectQuickActionBar1_6",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

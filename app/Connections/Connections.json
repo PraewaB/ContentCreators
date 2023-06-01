@@ -34,7 +34,9 @@
     "dataSources": [
       "Employee onboarding",
       "Employee Profile",
-      "OBT_SAPLearningHub"
+      "OBT_SAPLearningHub",
+      "OBT_HowToDeloitte",
+      "Reference doc"
     ],
     "dependencies": {},
     "dependents": [],
