@@ -9,7 +9,7 @@
 
     "Gallery3_2 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         DelayItemLoading: =true
-        Height: =339
+        Height: =507
         Items: ='Reference doc'
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data

@@ -9,7 +9,7 @@
 
     "Gallery3_1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         DelayItemLoading: =true
-        Height: =339
+        Height: =512
         Items: =OBT_SAPLearningHub
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
