@@ -18,6 +18,7 @@
         ZIndex: =1
 
         Title2 As label:
+            Color: =RGBA(184, 0, 0, 1)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0

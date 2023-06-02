@@ -24,6 +24,42 @@
         Y: =RectQuickActionBar2_1.Y + RectQuickActionBar2_1.Height
         ZIndex: =3
 
+        "'Profile Picture_DataCard1' As typedDataCard.largeImageViewCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="ProfilePicture"
+            Default: =ThisItem.'Profile Picture'
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@'Employee Profile'],DataSourceInfo.DisplayName,"ProfilePicture")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =0
+            ZIndex: =7
+
+            DataCardKey20 As label:
+                AutoHeight: =true
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue20 As image:
+                DisplayMode: =Parent.DisplayMode
+                Height: =320
+                Image: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey20.Y + DataCardKey20.Height + 5
+                ZIndex: =2
+
         Title_DataCard3 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
@@ -248,42 +284,6 @@
                 Width: =Parent.Width - 60
                 X: =30
                 Y: =DataCardKey19.Y + DataCardKey19.Height + 5
-                ZIndex: =2
-
-        "'Profile Picture_DataCard1' As typedDataCard.largeImageViewCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="ProfilePicture"
-            Default: =ThisItem.'Profile Picture'
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'Employee Profile'],DataSourceInfo.DisplayName,"ProfilePicture")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Width: =640
-            X: =0
-            Y: =0
-            ZIndex: =7
-
-            DataCardKey20 As label:
-                AutoHeight: =true
-                Color: =RGBA(168, 0, 0, 1)
-                FontWeight: =FontWeight.Bold
-                Height: =48
-                Size: =21
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue20 As image:
-                DisplayMode: =Parent.DisplayMode
-                Height: =320
-                Image: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey20.Y + DataCardKey20.Height + 5
                 ZIndex: =2
 
         Position_DataCard1 As typedDataCard.textualViewCard:

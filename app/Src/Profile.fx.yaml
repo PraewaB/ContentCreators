@@ -37,6 +37,7 @@ Profile As screen:
 
     Label1 As label:
         Align: =Align.Center
+        FontWeight: =FontWeight.Bold
         Height: =70
         Size: =21
         Text: =User().FullName
@@ -46,32 +47,62 @@ Profile As screen:
         ZIndex: =5
 
     Label1_1 As label:
-        Align: =Align.Center
         Height: =70
         Size: =18
         Text: =(Office365Users.MyProfile().JobTitle)
-        Width: =560
-        X: =40
+        Width: =242
+        X: =357
         Y: =566
         ZIndex: =6
 
     Label1_4 As label:
-        Align: =Align.Center
         Height: =70
         Size: =18
         Text: =(Office365Users.MyProfile().OfficeLocation)
-        Width: =560
-        X: =40
+        Width: =243
+        X: =357
         Y: =676
         ZIndex: =7
 
     Label1_5 As label:
-        Align: =Align.Center
         Height: =70
         Size: =18
         Text: =(Office365Users.MyProfile().Department)
-        Width: =560
-        X: =40
+        Width: =241
+        X: =357
         Y: =622
         ZIndex: =8
+
+    Label3 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =45
+        Size: =18
+        Text: |-
+            ="Position:"
+        Width: =235
+        X: =92
+        Y: =578
+        ZIndex: =9
+
+    Label3_1 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =45
+        Size: =18
+        Text: |-
+            ="Business:"
+        Width: =235
+        X: =92
+        Y: =636
+        ZIndex: =10
+
+    Label3_2 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =45
+        Size: =18
+        Text: |-
+            ="Location:"
+        Width: =235
+        X: =92
+        Y: =683
+        ZIndex: =11
 
