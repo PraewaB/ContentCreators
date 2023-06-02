@@ -30,18 +30,16 @@
       "Editor": "Modified By",
       "Editor#Claims": "Modified By Claims",
       "File": "File",
-      "FileName": "File Name",
       "ID": "ID",
       "Modified": "Modified",
       "OData__ColorTag": "Color Tag",
-      "Phase": "Phase",
       "Title": "Title"
     },
     "DatasetName": "https://apcdeloitte.sharepoint.com/sites/Content42",
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "Reference doc",
+    "Name": "Reference Template_1",
     "Type": "ConnectedDataSourceInfo"
   }
 ]

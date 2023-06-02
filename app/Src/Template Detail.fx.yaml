@@ -1,0 +1,117 @@
+"'Template Detail' As screen.'phoneDetailViewLayout_ver3.0'":
+
+    RectQuickActionBar2_5 As rectangle:
+        BorderColor: =RGBA(99, 139, 44, 1)
+        Fill: =RGBA(99, 139, 44, 1)
+        Height: =88
+        Width: =Parent.Width
+        ZIndex: =1
+
+    LblAppName2_5 As label:
+        Align: =Align.Center
+        Height: =88
+        Size: =27
+        Text: ="How To"
+        Width: =640
+        Wrap: =false
+        ZIndex: =2
+
+    DetailForm1_5 As formViewer:
+        DataSource: ='Reference Template_1'
+        Height: =Parent.Height - DetailForm1_5.Y
+        Item: =Gallery3_3.Selected
+        Width: =Parent.Width
+        Y: =RectQuickActionBar2_5.Y + RectQuickActionBar2_5.Height
+        ZIndex: =3
+
+        Title_DataCard7 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Title"
+            Default: =ThisItem.Title
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@'Reference Template_1'],DataSourceInfo.DisplayName,"Title")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =true
+            Width: =640
+            X: =0
+            Y: =0
+            ZIndex: =4
+
+            DataCardKey32 As label:
+                AutoHeight: =true
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue32 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey32.Y + DataCardKey32.Height + 5
+                ZIndex: =2
+
+        File_DataCard2 As typedDataCard.urlViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="File"
+            Default: =ThisItem.File
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@'Reference Template_1'],DataSourceInfo.DisplayName,"File")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =1
+            ZIndex: =4
+
+            DataCardKey33 As label:
+                AutoHeight: =true
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue33 As htmlViewer:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =45
+                HtmlText: ="<a href='" & Parent.Default & "'>" & Parent.Default & "</a>"
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey33.Y + DataCardKey33.Height + 5
+                ZIndex: =2
+
+    IconBackarrow1_8 As icon.ChevronLeft:
+        AccessibleLabel: =Self.Tooltip
+        Height: =88
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate('Reference Template')
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Tooltip: ="Back to list"
+        Width: =88
+        ZIndex: =4
+

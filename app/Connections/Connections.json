@@ -13,6 +13,28 @@
     "dependents": [],
     "id": "1e95a794-d246-460e-bf28-8b7c4a347314"
   },
+  "2803be06-0e79-429e-9011-3022d0e695f5": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1636/1.0.1636.3297/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://apcdeloitte.sharepoint.com/sites/Content42": {
+        "dataSources": {
+          "Reference Template_1": {
+            "tableName": "6be25844-26b6-401a-8444-7d44caed5178"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Reference Template_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "2803be06-0e79-429e-9011-3022d0e695f5"
+  },
   "4207c748-89c9-4f3d-9cef-d5ef622c59f1": {
     "connectionRef": {
       "apiTier": "Standard",

@@ -7,20 +7,6 @@
         Width: =Parent.Width
         ZIndex: =1
 
-    IconBackarrow1_1 As icon.ChevronLeft:
-        AccessibleLabel: =Self.Tooltip
-        Height: =88
-        Icon: =Icon.ChevronLeft
-        OnSelect: =Navigate(Network, ScreenTransition.None)
-        PaddingBottom: =24
-        PaddingLeft: =24
-        PaddingRight: =24
-        PaddingTop: =24
-        TabIndex: =0
-        Tooltip: ="Back to list"
-        Width: =88
-        ZIndex: =2
-
     LblAppName2_1 As label:
         Align: =Align.Center
         Height: =88
@@ -28,7 +14,7 @@
         Text: ="Employee Detail"
         Width: =640
         Wrap: =false
-        ZIndex: =5
+        ZIndex: =2
 
     DetailForm1_1 As formViewer:
         DataSource: =[@'Employee Profile']
@@ -36,7 +22,7 @@
         Item: =Gallery2.Selected
         Width: =Parent.Width
         Y: =RectQuickActionBar2_1.Y + RectQuickActionBar2_1.Height
-        ZIndex: =6
+        ZIndex: =3
 
         Title_DataCard3 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
@@ -419,4 +405,18 @@
                 X: =30
                 Y: =DataCardKey23.Y + DataCardKey23.Height + 5
                 ZIndex: =2
+
+    IconBackarrow1_1 As icon.ChevronLeft:
+        AccessibleLabel: =Self.Tooltip
+        Height: =88
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate(Network, ScreenTransition.None)
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Tooltip: ="Back to list"
+        Width: =88
+        ZIndex: =4
 
