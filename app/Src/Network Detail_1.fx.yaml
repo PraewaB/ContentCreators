@@ -35,7 +35,7 @@
             Required: =true
             Width: =640
             X: =0
-            Y: =0
+            Y: =1
             ZIndex: =7
 
             DataCardKey16 As label:
@@ -76,7 +76,7 @@
             Update: =DataCardValue17.Selected
             Width: =640
             X: =0
-            Y: =1
+            Y: =2
             ZIndex: =7
 
             DataCardKey17 As label:
@@ -149,7 +149,7 @@
             Update: =DataCardValue18.Selected
             Width: =640
             X: =0
-            Y: =2
+            Y: =3
             ZIndex: =7
 
             DataCardKey18 As label:
@@ -221,7 +221,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =3
+            Y: =4
             ZIndex: =7
 
             DataCardKey19 As label:
@@ -261,7 +261,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =4
+            Y: =0
             ZIndex: =7
 
             DataCardKey20 As label:
