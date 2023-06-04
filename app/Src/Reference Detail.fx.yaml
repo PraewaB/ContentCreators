@@ -9,9 +9,10 @@
 
     LblAppName2_4 As label:
         Align: =Align.Center
+        Fill: =RGBA(141, 198, 63, 1)
         Height: =88
         Size: =27
-        Text: ="How To"
+        Text: ="PROJECT REFERENCES"
         Width: =640
         Wrap: =false
         ZIndex: =2
