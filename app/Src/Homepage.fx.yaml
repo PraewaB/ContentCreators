@@ -6,8 +6,8 @@ Homepage As screen:
     Rectangle2 As rectangle:
         BorderColor: =RGBA(237, 237, 237, 1)
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =1104
-        Width: =614
+        Height: =1093
+        Width: =607
         X: =16
         Y: =18
         ZIndex: =1
@@ -56,21 +56,21 @@ Homepage As screen:
         Height: =203
         Size: =50
         Text: ="WELCOME TO OUR TRIBE!"
-        Width: =560
-        X: =55
-        Y: =33
+        Width: =518
+        X: =68
+        Y: =49
         ZIndex: =5
 
     Button1_4 As button:
         Fill: =RGBA(141, 198, 63, 1)
-        Height: =70
+        Height: =58
         HoverFill: =ColorFade(Self.Fill, -15%)
         OnSelect: =Navigate(Profile)
         Size: =24
         Text: ="GAMECHANGER PROFILE"
-        Width: =526
-        X: =71
-        Y: =265
+        Width: =486
+        X: =91
+        Y: =272
         ZIndex: =6
 
     Circle1 As circle:
