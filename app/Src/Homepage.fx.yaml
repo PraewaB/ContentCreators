@@ -1,5 +1,5 @@
 Homepage As screen:
-    BackgroundImage: ='pexels-rahul-pandit-1212487'
+    BackgroundImage: =
     ImagePosition: =ImagePosition.Fill
 
     Button1 As button:
