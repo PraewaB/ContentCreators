@@ -3,39 +3,36 @@ Homepage As screen:
     ImagePosition: =ImagePosition.Fill
 
     Button1 As button:
-        Fill: =RGBA(99, 139, 44, 1)
-        Font: =Font.Georgia
+        Fill: =RGBA(141, 198, 63, 1)
         Height: =70
         HoverFill: =ColorFade(Self.Fill, -15%)
         OnSelect: =Navigate('TO DO')
         Size: =24
-        Text: ="TO DO"
+        Text: ="TO ACHIEVE"
         Width: =280
         X: =194
         Y: =711
         ZIndex: =1
 
     Button1_2 As button:
-        Fill: =RGBA(99, 139, 44, 1)
-        Font: =Font.Georgia
+        Fill: =RGBA(141, 198, 63, 1)
         Height: =70
         HoverFill: =ColorFade(Self.Fill, -15%)
         OnSelect: =Navigate(Network)
         Size: =24
-        Text: ="Network Hub"
+        Text: ="TO CONNECT"
         Width: =280
         X: =194
         Y: =825
         ZIndex: =3
 
     Button1_3 As button:
-        Fill: =RGBA(99, 139, 44, 1)
-        Font: =Font.Georgia
+        Fill: =RGBA(141, 198, 63, 1)
         Height: =70
         HoverFill: =ColorFade(Self.Fill, -15%)
         OnSelect: =Navigate('Learning Hub')
         Size: =24
-        Text: ="Learning Hub"
+        Text: ="TO GROW"
         Width: =280
         X: =194
         Y: =939
@@ -44,29 +41,33 @@ Homepage As screen:
     Label2 As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
-        Font: =Font.Georgia
+        Fill: =RGBA(141, 198, 63, 1)
         FontWeight: =FontWeight.Bold
         Height: =203
         Size: =50
-        Text: |-
-            ="WELCOME 
-            NEW JOINERS
-            "
+        Text: ="WELCOME TO OUR TRIBE!"
         Width: =560
         X: =55
         Y: =33
         ZIndex: =5
 
     Button1_4 As button:
-        Fill: =RGBA(99, 139, 44, 1)
-        Font: =Font.Georgia
+        Fill: =RGBA(141, 198, 63, 1)
         Height: =70
         HoverFill: =ColorFade(Self.Fill, -15%)
         OnSelect: =Navigate(Profile)
         Size: =24
-        Text: ="My Profile"
+        Text: ="GAMECHANGER PROFILE"
         Width: =526
-        X: =75
-        Y: =259
+        X: =71
+        Y: =265
         ZIndex: =6
+
+    Circle1 As circle:
+        Fill: =RGBA(141, 198, 63, 1)
+        Height: =66
+        Width: =63
+        X: =534
+        Y: =547
+        ZIndex: =7
 
