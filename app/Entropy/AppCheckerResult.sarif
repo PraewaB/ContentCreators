@@ -3262,19 +3262,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Learning Hub'.Icon1_5.AccessibleLabel"
+                  "fullyQualifiedName": "'TO GROW'.Icon1_5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Learning Hub'.Icon1_5.AccessibleLabel",
+                  "fullyQualifiedName": "'TO GROW'.Icon1_5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Learning Hub",
-                "type": "'Learning Hub'.Icon1_5"
+                "module": "TO GROW",
+                "type": "'TO GROW'.Icon1_5"
               }
             }
           ],
@@ -3292,19 +3292,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Learning Hub'.Icon1_5.TabIndex"
+                  "fullyQualifiedName": "'TO GROW'.Icon1_5.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Learning Hub'.Icon1_5.TabIndex",
+                  "fullyQualifiedName": "'TO GROW'.Icon1_5.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Learning Hub",
-                "type": "'Learning Hub'.Icon1_5"
+                "module": "TO GROW",
+                "type": "'TO GROW'.Icon1_5"
               }
             }
           ],

@@ -30,7 +30,7 @@ Homepage As screen:
         Fill: =RGBA(141, 198, 63, 1)
         Height: =70
         HoverFill: =ColorFade(Self.Fill, -15%)
-        OnSelect: =Navigate('Learning Hub')
+        OnSelect: =Navigate('TO GROW')
         Size: =24
         Text: ="TO GROW"
         Width: =280

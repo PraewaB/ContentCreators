@@ -1,4 +1,4 @@
-"'Learning Hub' As screen":
+"'TO GROW' As screen":
 
     RectQuickActionBar1_5 As rectangle:
         BorderColor: =RGBA(99, 139, 44, 1)
@@ -31,7 +31,7 @@
         HoverFill: =ColorFade(Self.Fill, -15%)
         OnSelect: =Navigate('SF Learning')
         Size: =24
-        Text: ="SF Learning Hub"
+        Text: ="SAP SF LEARNING HUB"
         Width: =280
         X: =160
         Y: =389
@@ -43,18 +43,19 @@
         HoverFill: =ColorFade(Self.Fill, -15%)
         OnSelect: =Navigate('Reference Doc')
         Size: =24
-        Text: ="Project References"
+        Text: ="PROJECT REFERENCES"
         Width: =280
         X: =160
         Y: =646
         ZIndex: =5
 
     Label4 As label:
+        Align: =Align.Center
         Color: =RGBA(141, 198, 63, 1)
         FontWeight: =FontWeight.Bold
         Height: =70
-        Size: =40
-        Text: ="Learning Journey"
+        Size: =30
+        Text: ="GROWTH JOURNEY"
         Width: =493
         X: =73
         Y: =175
