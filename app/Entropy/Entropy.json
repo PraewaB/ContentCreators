@@ -269,7 +269,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/04/2023 05:38:07",
+  "HeaderLastSavedDateTimeUTC": "06/04/2023 05:38:50",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "1e95a794-d246-460e-bf28-8b7c4a347314": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/c3b064cceb924add890862576816c19a\"",
@@ -880,7 +880,7 @@
     "AnalysisLoadTime": 1.0873557,
     "ControlCount": {
       "attachments": 1,
-      "button": 10,
+      "button": 12,
       "combobox": 9,
       "datepicker": 1,
       "form": 1,
