@@ -29,7 +29,12 @@
       }
     },
     "dataSources": [
-      "Reference Template_1"
+      "Reference Template_1",
+      "OBT_SAPLearningHub",
+      "Employee Profile",
+      "OBT_HowToDeloitte",
+      "Employee onboarding",
+      "Reference doc"
     ],
     "dependencies": {},
     "dependents": [],

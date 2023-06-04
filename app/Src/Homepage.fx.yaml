@@ -11,22 +11,9 @@ Homepage As screen:
         Size: =24
         Text: ="TO DO"
         Width: =280
-        X: =195
+        X: =194
         Y: =711
         ZIndex: =1
-
-    Button1_1 As button:
-        Fill: =RGBA(99, 139, 44, 1)
-        Font: =Font.Georgia
-        Height: =70
-        HoverFill: =ColorFade(Self.Fill, -15%)
-        OnSelect: =Navigate('How To')
-        Size: =24
-        Text: ="How To"
-        Width: =280
-        X: =195
-        Y: =809
-        ZIndex: =2
 
     Button1_2 As button:
         Fill: =RGBA(99, 139, 44, 1)
@@ -37,8 +24,8 @@ Homepage As screen:
         Size: =24
         Text: ="Network Hub"
         Width: =280
-        X: =195
-        Y: =914
+        X: =194
+        Y: =825
         ZIndex: =3
 
     Button1_3 As button:
@@ -50,8 +37,8 @@ Homepage As screen:
         Size: =24
         Text: ="Learning Hub"
         Width: =280
-        X: =195
-        Y: =1020
+        X: =194
+        Y: =939
         ZIndex: =4
 
     Label2 As label:
