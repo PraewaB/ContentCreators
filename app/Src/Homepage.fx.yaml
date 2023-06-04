@@ -6,7 +6,7 @@ Homepage As screen:
     Rectangle2 As rectangle:
         BorderColor: =RGBA(237, 237, 237, 1)
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =1093
+        Height: =1094
         Width: =607
         X: =16
         Y: =18
