@@ -9,10 +9,10 @@
 
     LblAppName1_5 As label:
         Align: =Align.Center
-        Fill: =RGBA(58, 58, 58, 0)
+        Fill: =RGBA(141, 198, 63, 1)
         Height: =88
         Size: =27
-        Text: ="Learning Hub"
+        Text: ="TO GROW"
         Width: =640
         Wrap: =false
         ZIndex: =2
@@ -26,7 +26,7 @@
         ZIndex: =3
 
     Button3 As button:
-        Fill: =RGBA(127, 178, 57, 1)
+        Fill: =RGBA(141, 198, 63, 1)
         Height: =111
         HoverFill: =ColorFade(Self.Fill, -15%)
         OnSelect: =Navigate('SF Learning')
@@ -38,19 +38,19 @@
         ZIndex: =4
 
     Button3_1 As button:
-        Fill: =RGBA(127, 178, 57, 1)
+        Fill: =RGBA(141, 198, 63, 1)
         Height: =135
         HoverFill: =ColorFade(Self.Fill, -15%)
         OnSelect: =Navigate('Reference Doc')
         Size: =24
-        Text: ="Reference from Project"
+        Text: ="Project References"
         Width: =280
         X: =160
         Y: =646
         ZIndex: =5
 
     Label4 As label:
-        Color: =RGBA(168, 0, 0, 1)
+        Color: =RGBA(141, 198, 63, 1)
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =40
@@ -83,14 +83,6 @@
         X: =237
         Y: =703
         ZIndex: =11
-
-    Image4_3 As image:
-        Height: =228
-        Image: =goal
-        Width: =188
-        X: =452
-        Y: =891
-        ZIndex: =12
 
     Image4_4 As image:
         Height: =122
