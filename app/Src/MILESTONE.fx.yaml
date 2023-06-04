@@ -1,4 +1,4 @@
-"'TO DO Detail' As screen.'phoneDetailViewLayout_ver3.0'":
+"MILESTONE As screen.'phoneDetailViewLayout_ver3.0'":
 
     RectQuickActionBar2 As rectangle:
         Fill: =RGBA(99, 139, 44, 1)

@@ -88,7 +88,7 @@
         Height: =Parent.Height - Self.Y
         Items: =SortByColumns(Filter([@'Employee onboarding'], StartsWith(Title, TextSearchBox1.Text)), "Title", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
         Layout: =Layout.Vertical
-        OnSelect: =Navigate('TO DO Detail', ScreenTransition.None)
+        OnSelect: =Navigate(MILESTONE, ScreenTransition.None)
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)

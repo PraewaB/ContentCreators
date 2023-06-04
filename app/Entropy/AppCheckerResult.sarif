@@ -3772,19 +3772,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'TO DO Detail'.DetailForm1.'Complete by_DataCard1'.DataCardValue3.AccessibleLabel"
+                  "fullyQualifiedName": "MILESTONE.DetailForm1.'Complete by_DataCard1'.DataCardValue3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'TO DO Detail'.DetailForm1.'Complete by_DataCard1'.DataCardValue3.AccessibleLabel",
+                  "fullyQualifiedName": "MILESTONE.DetailForm1.'Complete by_DataCard1'.DataCardValue3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "TO DO Detail",
-                "type": "'TO DO Detail'.DetailForm1.'Complete by_DataCard1'.DataCardValue3"
+                "module": "MILESTONE",
+                "type": "MILESTONE.DetailForm1.'Complete by_DataCard1'.DataCardValue3"
               }
             }
           ],
@@ -3802,19 +3802,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'TO DO Detail'.DetailForm1.Status_DataCard1.DataCardValue7.AccessibleLabel"
+                  "fullyQualifiedName": "MILESTONE.DetailForm1.Status_DataCard1.DataCardValue7.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'TO DO Detail'.DetailForm1.Status_DataCard1.DataCardValue7.AccessibleLabel",
+                  "fullyQualifiedName": "MILESTONE.DetailForm1.Status_DataCard1.DataCardValue7.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "TO DO Detail",
-                "type": "'TO DO Detail'.DetailForm1.Status_DataCard1.DataCardValue7"
+                "module": "MILESTONE",
+                "type": "MILESTONE.DetailForm1.Status_DataCard1.DataCardValue7"
               }
             }
           ],
