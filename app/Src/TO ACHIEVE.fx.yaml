@@ -1,4 +1,4 @@
-"'TO DO' As screen.'phoneBrowseLayout_ver3.0'":
+"'TO ACHIEVE' As screen.'phoneBrowseLayout_ver3.0'":
 
     RectQuickActionBar1 As rectangle:
         BorderColor: =RGBA(99, 139, 44, 1)
