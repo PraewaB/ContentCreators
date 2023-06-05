@@ -76,6 +76,8 @@ Homepage As screen:
     Circle1 As circle:
         Fill: =RGBA(141, 198, 63, 1)
         Height: =66
+        OnSelect: |-
+            =Launch(https://seaportal-deloitte.msappproxy.net/sites/Consulting/SitePages/Deloitte%20Southeast%20Asia%20Consulting.aspx)
         Width: =63
         X: =534
         Y: =547
